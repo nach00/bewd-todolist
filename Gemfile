@@ -57,7 +57,8 @@ group :development, :test do
   gem 'rspec-rails', '~> 7'
   gem 'rubocop', '~> 1.36'
   gem 'rubocop-rspec', '2.12'
-  gem 'sqlite3'
+  # gem 'sqlite3'
+  gem 'sqlite3', '~> 1.4'
 end
 
 group :development do
